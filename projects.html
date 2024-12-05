@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Prashnansa Katuwal</title>
     <link rel="stylesheet" href="style.css">
-</head>
+
+    <link rel="stylesheet" href="modern_style.css">
+    <script src="typed_integration.js"></script>
+    </head>
+    
 <body>
     <header>
         <div class="container">
@@ -41,30 +45,5 @@
     <footer>
         <p>© 2024 Prashnansa Katuwal</p>
     </footer>
-
-    
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    const cards = document.querySelectorAll(".project-card");
-    cards.forEach((card, index) => {
-        card.style.animationDelay = `${index * 0.2}s`;
-        card.classList.add("fade-in");
-    });
-});
-</script>
-<style>
-.fade-in {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-</style>
-
-    </body>
-    
+</body>
 </html>
